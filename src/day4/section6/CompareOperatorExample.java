@@ -2,8 +2,48 @@ package day4.section6;
 
 public class CompareOperatorExample {
 	public static void main(String[] args) {
-		int num1 = 10;
+/*		int num1 = 10;
 		int num2 = 10;
+
+		//num1과 num2를 비교해서 같다/다르다 결과값을 출력
+		if(num1 == num2){
+			System.out.println("같다");
+		} else {
+			System.out.println("다르다");
+		}
+
+		if(num1 != num2){
+			System.out.println("다르다");
+		} else {
+			System.out.println("같다");
+		}
+
+		char ch = 'A';
+		int chInt = 65;
+
+		if(ch == chInt){
+			System.out.println("같다");
+		} else {
+			System.out.println("다르다");
+		}
+
+		System.out.println(ch == chInt);*/
+		
+/*		//예외 check!
+		//0.1f == 0.1
+		System.out.println(0.1f == 0.1);
+		System.out.println(0.1f == (float)0.1);*/
+
+		//문자열 비교시, equals() !equals()
+		String str1 = "안녕";
+		String str2 = "안 녕";
+
+		boolean result = str1.equals(str2);
+		System.out.println(result);
+
+		boolean result1 = ! str1.equals(str2);
+		System.out.println(result1);
+
 
 		/*System.out.println("result1: " + result1);
 		System.out.println("result2: " + result2);
