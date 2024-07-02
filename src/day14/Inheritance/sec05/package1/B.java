@@ -1,6 +1,6 @@
 package day14.Inheritance.sec05.package1;
 
-public class B {
+public class B extends A{
 
   //메소드 선언
   public void method() {

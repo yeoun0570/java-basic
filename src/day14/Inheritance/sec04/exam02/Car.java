@@ -10,7 +10,7 @@ public class Car {
     speed += 1;
   }
 
-  //final 메소드
+  //final 메소드 : 메서드 앞에 final이 붙으면 최종메서드이므로 오버라이딩을 할 수 없다.
   public final void stop() {
     System.out.println("차를 멈춤");
     speed = 0;

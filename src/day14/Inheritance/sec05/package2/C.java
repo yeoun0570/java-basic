@@ -1,6 +1,8 @@
 package day14.Inheritance.sec05.package2;
 
-public class C {
+import day14.Inheritance.sec05.package1.B;
+
+public class C extends B {
 
   //메소드 선언
   public void method() {
